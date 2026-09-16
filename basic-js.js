@@ -1,22 +1,22 @@
 let name = "Peter";
 let age = 20;
-let graduated = true;
+let graduateed = true;
 let gpa = 3.75;
 
 let student1 = {
     name : "Manee",
     age : 19,
-    graduated : flase;
+    graduateed : flase,
     gpa : 2.65
 };
 
 let student2 = {
     name : name,
-    age : 19,
-    graduated : flase,
-    gpa : 2.65
-
+    age : age,
+    graduateed : graduateed,
+    gpa : gpa
 };
+
 console.console.log(student1.name);
 console.console.log(student2);
 
@@ -41,5 +41,5 @@ function calculateGrade(scorce) {
 
  for (let i=0; i < scorce.length; i++) {
     let grades = calculateGrade(score[i])
-    console.log("Score:"+)
+    console.log(`Score: ${scorces[i]}, Grade: ${grade}`);
  }
